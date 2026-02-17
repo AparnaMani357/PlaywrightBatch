@@ -1,0 +1,18 @@
+function example(){
+    if(true){
+    let a=10;
+    }
+
+    console.log(a);
+}
+
+function example1(){
+    if(true){
+    var a=10;
+    }
+
+    console.log(a);
+}
+
+example1();
+example();
