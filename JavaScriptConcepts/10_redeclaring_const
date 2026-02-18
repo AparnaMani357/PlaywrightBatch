@@ -1,0 +1,4 @@
+const pi=3.14;
+//const pi=3.14159; // This line throws error because we cannot redeclare a constant variable
+pi=3.14159; // This line throws error because we cannot reassign a value to a constant variable
+console.log(pi);

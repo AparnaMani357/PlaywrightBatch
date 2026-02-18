@@ -1,0 +1,8 @@
+
+
+if(true){
+     var x=10;
+    console.log(x);
+   }
+
+console.log(x); // var is function scoped, so x is accessible outside the block as well, it will print 10   
