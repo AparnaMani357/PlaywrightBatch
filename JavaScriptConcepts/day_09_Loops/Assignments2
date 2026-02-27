@@ -1,0 +1,41 @@
+//While Loop
+// Print "Playwright" 5 times
+
+let n=0;
+while(n<5){
+    console.log("Playwright");
+    n++;
+}
+
+
+//Print numbers from 1 to 10
+let x=1;
+while(x<=10){
+    console.log(x);
+    x++;
+}
+
+// Print even numbers from 1 to 20
+let i=1;
+while(i<=20){
+    if(i%2==0){
+            console.log(i);
+    }
+    i++;
+}
+
+//Calculate sum of first 10 natural numbers
+let sum=0;
+let num=1;
+while(num<=10){
+    sum+=num;
+    num++;
+}
+console.log(sum);
+
+//Print the multiplication table of 7
+let digit=1;
+while(digit<=10){
+    console.log(7*digit);
+    digit++;
+}
