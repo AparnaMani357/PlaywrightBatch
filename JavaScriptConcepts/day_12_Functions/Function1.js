@@ -45,3 +45,13 @@ function logResults(SuiteName,...Results){
 }
 
 logResults("MySuite","Pass","Fail","Skip","Pass");
+
+
+//Spread
+function addition(a,b,c,d){
+    return a+b+c+d;
+}
+
+
+let arr=[1,2,3,4];
+console.log(addition(...arr));
